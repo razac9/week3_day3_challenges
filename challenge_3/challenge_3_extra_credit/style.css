@@ -7,8 +7,37 @@ img {
 	width: 100px;
 }
 
+div{
+	display: flex;
+}
+
 #big_div {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+}
+
+#a{
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#e{
+
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#b{
+	justify-content: center;
+	flex-wrap:wrap;
+}
+
+#c{
+
+	align-items: flex-start;
+}
+
+#d{
+	align-items: flex-end;
 }

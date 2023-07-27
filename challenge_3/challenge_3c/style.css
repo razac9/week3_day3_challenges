@@ -7,12 +7,34 @@ img {
 	width: 100px;
 }
 
+
 div div {
 	margin: auto;
 	width: 33%;
 	height: 250px;
 }
 
+div{
+	display:flex;
+}
+
 #big_div {
 	border: 5px solid black;
 }
+
+#sub_div1{
+	padding-left: 45px;
+	align-items: flex-start;
+
+}
+
+#sub_div2{
+	align-items: center;
+}
+
+#sub_div3{
+	align-items: flex-end;
+}
+
+
+
